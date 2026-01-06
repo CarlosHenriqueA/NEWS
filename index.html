@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal Notícias Simples</title>
+  <style>
+    :root{--bg:#ffffff;--fg:#222;--muted:#555;--accent:#0066cc;--card:#f5f7fa}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--fg);background:var(--bg);}
+    header{background:var(--accent);color:#fff;padding:16px 24px}
+    header h1{margin:0;font-size:1.5rem}
+    nav a{color:#fff;text-decoration:none;margin-right:12px;font-weight:600}
+    main{max-width:920px;margin:24px auto;padding:0 16px}
+    .card{background:var(--card);border:1px solid #e6e9ef;border-radius:12px;padding:16px}
+    .card h2{margin-top:0}
+    .meta{color:var(--muted);font-size:.9rem;margin-bottom:8px}
+    img{max-width:100%;border-radius:10px}
+    footer{margin-top:40px;padding:16px;color:var(--muted);text-align:center}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal Notícias Simples</h1>
+    <nav>
+      <a href="index.html" aria-current="page">Início</a>
+      <!-- Link futuro para página de esportes -->
+      <a href="esporte.html">Esportes</a>
+    </nav>
+  </header>
+  <main>
+    <article class="card" aria-labelledby="noticia-principal">
+      <h2 id="noticia-principal">Cidade testa ônibus elétricos em novo corredor sustentável</h2>
+      <p class="meta">Publicado em 06/01/2026 • Redação Portal</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Electric_bus_in_Warsaw_03.jpg/640px-Electric_bus_in_Warsaw_03.jpg" alt="Ônibus elétrico em via urbana">
+      <p>A prefeitura anunciou o início da operação-piloto de ônibus elétricos em um corredor dedicado, com o objetivo de reduzir emissões e ruídos no centro da cidade. O projeto prevê estações com cobertura solar e informação em tempo real para os passageiros.</p>
+      <p>Segundo a coordenação do programa, a fase de testes deve durar três meses. Caso os resultados sejam positivos, a frota poderá ser ampliada gradualmente ao longo do ano, priorizando linhas de alta demanda.</p>
+      <p>Moradores poderão acompanhar os indicadores de desempenho por meio de um painel público que será atualizado semanalmente.</p>
+    </article>
+
+    <section class="card" aria-labelledby="veja-tambem">
+      <h3 id="veja-tambem">Veja também</h3>
+      <ul>
+        <li><a href="esporte.html">⚽ Esportes: estreia campeã em torneio de verão</a></li>
+        <li><a href="#">Economia: dicas para organizar o orçamento do mês</a></li>
+        <li><a href="#">Tecnologia: 5 aplicativos para produtividade</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Portal Notícias Simples — Conteúdo fictício para fins de demonstração.
+  </footer>
+</body>
+</html>
