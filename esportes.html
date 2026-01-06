@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal Notícias Simples — Esportes</title>
+  <style>
+    :root{--bg:#ffffff;--fg:#222;--muted:#555;--accent:#0b7a3e;--card:#f5f7fa}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--fg);background:var(--bg);}
+    header{background:var(--accent);color:#fff;padding:16px 24px}
+    header h1{margin:0;font-size:1.5rem}
+    nav a{color:#fff;text-decoration:none;margin-right:12px;font-weight:600}
+    main{max-width:920px;margin:24px auto;padding:0 16px}
+    .card{background:var(--card);border:1px solid #e6e9ef;border-radius:12px;padding:16px}
+    .card h2{margin-top:0}
+    .meta{color:var(--muted);font-size:.9rem;margin-bottom:8px}
+    img{max-width:100%;border-radius:10px}
+    footer{margin-top:40px;padding:16px;color:var(--muted);text-align:center}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Esportes — Portal Notícias Simples</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="esporte.html" aria-current="page">Esportes</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="card" aria-labelledby="noticia-esporte">
+      <h2 id="noticia-esporte">Equipe da capital vence torneio de verão com virada nos minutos finais</h2>
+      <p class="meta">Publicado em 06/01/2026 • Redação de Esportes</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_in_Black_and_White_%28Unsplash%29.jpg/640px-Football_in_Black_and_White_%28Unsplash%29.jpg" alt="Bola de futebol em campo">
+      <p>Em partida emocionante, a equipe da capital conquistou o título do Torneio de Verão ao derrotar o rival por 3 a 2. A virada veio após substituições estratégicas e pressão constante no ataque.</p>
+      <p>O técnico destacou a força coletiva e a preparação durante a pré-temporada: "Nosso foco foi manter a intensidade e aproveitar as oportunidades criadas".</p>
+      <p>Os próximos amistosos já estão agendados para as próximas semanas, com expectativa de casa cheia.</p>
+    </article>
+
+    <section class="card" aria-labelledby="mais-esportes">
+      <h3 id="mais-esportes">Mais esportes</h3>
+      <ul>
+        <li><a href="#">Basquete: nova contratação anima torcida</a></li>
+        <li><a href="#">Vôlei: equipe sub-21 estreia em circuito regional</a></li>
+        <li><a href="#">Corrida de rua: inscrições abertas para etapa de outono</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Portal Notícias Simples — Conteúdo fictício para fins de demonstração.
+  </footer>
+</body>
+</html>
